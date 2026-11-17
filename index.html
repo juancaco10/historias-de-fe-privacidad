@@ -1,34 +1,52 @@
 <!doctype html>
 <html lang="es">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Política de privacidad · Historias de Fe</title>
-<style>
-body{font-family:system-ui,sans-serif;max-width:720px;margin:2rem auto;padding:0 1rem;line-height:1.6;color:#202733}
-h1{font-size:1.6rem}h2{font-size:1.15rem;margin-top:1.6rem}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="Política de privacidad de Historias de Fe: datos usados por la app, respaldo y cómo eliminar tu cuenta.">
+  <meta name="color-scheme" content="light">
+  <link rel="canonical" href="https://juancaco10.github.io/historias-de-fe-privacidad/">
+  <title>Política de privacidad — Historias de Fe</title>
+  <style>
+    :root{color-scheme:light;--ink:#203447;--muted:#566777;--accent:#416c63;--paper:#f5f3ec;--card:#fffdf8;--line:#dedfd8}
+    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.72 system-ui,-apple-system,"Segoe UI",sans-serif}
+    header,main,footer{width:min(900px,calc(100% - 32px));margin-inline:auto}header{padding:34px 0 10px}main{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:clamp(22px,5vw,54px);box-shadow:0 16px 48px #2034470d}
+    h1,h2{line-height:1.2;letter-spacing:-.025em}h1{font-size:clamp(2rem,5vw,3rem);margin:4px 0 12px}h2{font-size:1.25rem;margin:30px 0 8px}p{margin:0 0 14px;color:var(--muted)}a{color:var(--accent);font-weight:650;text-underline-offset:3px}.brand{font-weight:750;letter-spacing:.04em;text-transform:uppercase;color:var(--accent);font-size:.82rem}.updated{font-size:.94rem}nav{display:flex;flex-wrap:wrap;gap:12px;margin:22px 0 4px}.button{display:inline-flex;align-items:center;border-radius:999px;background:var(--accent);color:white;padding:11px 17px;text-decoration:none}footer{padding:22px 0 34px;color:var(--muted);font-size:.9rem}
+    @media(max-width:520px){body{font-size:15px}main{border-radius:16px}}
+  </style>
 </head>
 <body>
-<h1>Política de privacidad de Historias de Fe</h1>
-<p>Última actualización: 29 de octubre de 2026.</p>
+  <header><a class="brand" href="https://juancaco10.github.io/historias-de-fe-privacidad/">Historias de Fe</a></header>
+  <main>
+    <h1>Política de privacidad</h1>
+    <p class="updated">Última actualización: 17 de noviembre de 2026</p>
+    <p>Esta política explica cómo Historias de Fe trata los datos al usar la aplicación Android y sus funciones de lectura, respaldo y comunidad.</p>
 
-<h2>Datos que se guardan en tu dispositivo</h2>
-<p>Las historias, la Biblia y el plan diario se cargan desde archivos incluidos en la app. El progreso, los planes, recordatorios, reflexiones personales, me gusta, comentarios personales y marcas de lectura se guardan localmente en las preferencias del dispositivo. Historias de Fe no tiene cuentas ni un servidor propio, y no recoge ni envía estos datos al desarrollador. El sistema operativo puede incluirlos en sus propias copias de seguridad según sus ajustes. Para eliminarlos basta con borrar los datos de la app o desinstalarla.</p>
+    <h2>Uso sin cuenta y datos locales</h2>
+    <p>Puedes leer la Biblia y las historias sin iniciar sesión. Las notas, anotaciones, versículos guardados, preferencias de lectura, progreso, planes y retos se guardan en el dispositivo. La app no los cifra por separado; el sistema operativo podría incluirlos en sus propias copias de seguridad. Los recordatorios son locales: el horario y los permisos de notificación no se envían al servidor.</p>
 
-<h2>Anuncios</h2>
-<p>En Android e iOS, los anuncios usan Google Mobile Ads (AdMob) y sus opciones de consentimiento. Google y sus proveedores pueden tratar datos técnicos y relacionados con anuncios, como el identificador de publicidad del dispositivo, según tu elección de privacidad y las políticas de Google (<a href="https://policies.google.com/privacy">policies.google.com/privacy</a>). Puedes restablecer o limitar el identificador de publicidad en los ajustes de tu dispositivo.</p>
+    <h2>Inicio de sesión y respaldo</h2>
+    <p>Si conectas Google, Firebase Authentication procesa el inicio de sesión y su SDK mantiene la sesión. Cuando el respaldo está activo, la app transmite por HTTPS al servidor de Historias de Fe en Hostinger las notas, anotaciones, versículos guardados, preferencias de lectura y progreso para sincronizarlos entre dispositivos. El servidor conserva el UID de Firebase y el nombre público asociado a la cuenta. El correo y la contraseña de Google no se guardan en la base de datos de Historias de Fe. El SDK obtiene un ID token para cada solicitud autenticada y la app no guarda una copia adicional; el servidor no conserva ni registra ese token.</p>
 
-<h2>Notificaciones, voz y compras</h2>
-<p>Los recordatorios son notificaciones locales que puedes activar o desactivar. La narración usa la voz en español instalada en tu dispositivo. Las compras, cuando estén habilitadas, se procesan por la tienda de aplicaciones correspondiente; el desarrollador no recibe tus datos de pago. Al compartir un versículo, la imagen o el texto se entrega a la aplicación que elijas.</p>
+    <h2>Funciones comunitarias</h2>
+    <p>Al usar la comunidad se transmiten al servidor los me gusta, los eventos de compartir y los comentarios que envías, junto con el nombre público y los reportes relacionados. Los comentarios se revisan antes de mostrarse; los aprobados son visibles para otras personas. Los comentarios publicados desde una cuenta se eliminan cuando se elimina esa cuenta.</p>
 
-<h2>Texto bíblico</h2>
-<p>El texto bíblico Reina-Valera 1909 está integrado en la app; no se consulta ningún servicio bíblico remoto.</p>
+    <h2>Eliminación de cuenta y datos</h2>
+    <p>Puedes iniciar el borrado desde Mi espacio en la app o desde el centro web. La operación solicita una autenticación reciente de Google, elimina la cuenta de Historias de Fe en Firebase y borra su respaldo, me gusta, comentarios, reportes, eventos de compartir y bloqueos. Si la solicitas desde la app, también se borran los datos personales locales de ese teléfono. La página web no puede borrar una copia local de otros teléfonos; en esos dispositivos, borra los datos de la app desde los ajustes del sistema o desinstálala. No se elimina tu cuenta de Google. En el servidor se conserva durante dos horas un marcador técnico sin nombre ni contenido para impedir que un ID token anterior recree el perfil. Al vencer ese plazo, el marcador se elimina cuando llega otra solicitud al API; si no hay actividad, permanece hasta la siguiente solicitud. Las compras o suscripciones de Google Play se gestionan desde Google Play y no se cancelan al borrar esta cuenta.</p>
+    <nav aria-label="Privacidad y cuenta"><a class="button" href="https://juancaco10.github.io/historias-de-fe-privacidad/delete-account/">Eliminar cuenta y datos</a></nav>
 
-<h2>Menores</h2>
-<p>La app está dirigida a mayores de 18 años.</p>
+    <h2>Anuncios y servicios de terceros</h2>
+    <p>En Android e iOS se integra Google Mobile Ads y el formulario de consentimiento de Google. Google y sus proveedores pueden procesar identificadores del dispositivo, datos técnicos y señales relacionadas con anuncios según tus permisos y las opciones de privacidad disponibles en tu región. Puedes volver a abrir las opciones de privacidad de anuncios desde el perfil cuando estén disponibles.</p>
 
-<h2>Contacto</h2>
-<p>Para consultas sobre privacidad, usa los datos de contacto del desarrollador en la ficha de Historias de Fe en Google Play.</p>
+    <h2>Compartir, narración y compras</h2>
+    <p>Al compartir un versículo, el texto o la imagen se entrega a la aplicación que elijas. La narración utiliza la voz instalada en el dispositivo. Las compras disponibles se procesan mediante la tienda correspondiente; la app no recibe los datos de pago.</p>
+
+    <h2>Seguridad, conservación y consultas</h2>
+    <p>La comunicación con el servidor usa HTTPS; los datos de respaldo no se cifran por separado en MySQL. La API puede conservar temporalmente un hash de la dirección IP para limitar abuso y solicitudes automatizadas; no lo usa como nombre público y las ventanas se limpian periódicamente. La Biblia Reina-Valera 1909 y los contenidos incluidos no se consultan desde un servicio bíblico remoto. Open.Bible, provista por las Sociedades Bíblicas Unidas, identifica la edición RV1909 como dominio público.</p>
+    <p>Para consultas sobre privacidad, contacta al desarrollador en <a href="mailto:jcpapeleriaeinformatica@gmail.com">jcpapeleriaeinformatica@gmail.com</a>. También puedes abrir el <a href="https://juancaco10.github.io/historias-de-fe-privacidad/">sitio público de privacidad</a> o iniciar la eliminación desde el centro web.</p>
+  </main>
+  <footer>Historias de Fe · <a href="https://juancaco10.github.io/historias-de-fe-privacidad/delete-account/">Centro de eliminación de cuenta</a></footer>
 </body>
 </html>
+
